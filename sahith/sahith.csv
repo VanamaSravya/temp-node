@@ -1,0 +1,11 @@
+import pandas as pd
+df=pd.read_csv('CSVtest.csv') #CSV file in same directory
+fd=df.fillna(0)
+print("Given CSV Data")
+print(fd)
+print()
+print("Statistical Mean")
+grp=fd.groupby('Name')
+meang=grp.mean()
+meang=meang.reset_index()
+print(meang) 

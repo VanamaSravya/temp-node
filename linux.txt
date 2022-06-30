@@ -1,0 +1,16 @@
+4)
+WinSCP is a secure file transfer graphical utility. 
+Compared to GUI, WinSCP has more features.
+WinSCP command helps in automating file transfers from console and also it helps to manage.
+Using WinSCP, we transferred a file to our Linux VM.
+
+8)
+Using YUM command we can install and delete packages.
+syntax:
+yum install httpd
+The above syntax is used to install http package in the system.
+After running the above command, many questions will be asked. For all the questions, give 'y' for all then the installation will be done.
+Once the installation is completed, we can see the package and their dependencies.
+we can remove the package using : yum remove httpd
+You will get a question asking for the confirmation, press 'y'then package deletion will be completed successfully.
+
